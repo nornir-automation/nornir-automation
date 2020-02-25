@@ -1,5 +1,5 @@
-SRC=nornir.tech
-DST=docs
+SRC=_nornir.tech
+DST=.
 
 HUGO_VERSION=v0.65.3
 HUGO=docker run \
@@ -36,4 +36,9 @@ gen: clean
 
 .PHONY: clean
 clean:
-	rm -rf $(DST)
+	find -maxdepth 1 -not \(\
+		-name '.*' -or \
+		-name '$(SRC)' -or \
+		-name 'Dockerfile' -or \
+		-name 'Makefile' \
+		\) -print0 | xargs -0  -I {} rm -rf {}
