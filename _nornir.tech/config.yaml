@@ -13,7 +13,7 @@ params:
     disableReadOtherPosts: false
 
     # Metadata mostly used in document's head
-    description: "My new homepage or blog"
+    description: "Everything related to nornir"
     keywords: "homepage, blog"
     images: [""]
 
