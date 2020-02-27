@@ -17,4 +17,4 @@ You can find community-driven support via the following channels:
 
 # Premium Support
 
-If you need dedicated support, help developing a feature or plugin, designing and/or architecting your solution or anything else you can [reach out to us](mailto:dbarrosop@dravetech) and discuss your needs.
+If you need dedicated support, help developing a feature or plugin, designing and/or architecting your solution or anything else you can [reach out to us](mailto:dbarrosop@dravetech.com) and discuss your needs.
