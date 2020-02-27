@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            <h1>{{ .Site.Title }}</h1>
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+						<img src="/img/logo/nornir_green.png" alt="nornir logo" height=400px>
+
+        </div>
+    </main>
+{{ end }}
