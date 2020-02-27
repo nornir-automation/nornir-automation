@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nornir.tech</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on nornir.tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nornir</copyright>
     <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description>About TBD</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/projects/</link>
+      <link>/projects/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/</guid>
+      <guid>/projects/</guid>
       <description>Nornir Github Documentation Help
 Nornir is a pure Python automation framework intented to be used directly from Python. While most automation frameworks use their own Domain Specific Language (DSL) which you use to describe what you want to have done, Nornir lets you control everything from Python.
  Gornir Github Documentation Help
@@ -35,10 +35,10 @@ Gornir is a pluggable framework with inventory management to help operate collec
     
     <item>
       <title>Sponsoring the project</title>
-      <link>//localhost:1313/sponsor/</link>
+      <link>/sponsor/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/sponsor/</guid>
+      <guid>/sponsor/</guid>
       <description>Both nornir and gornir are made by the community for the community. To ensure the continuity and success of the project both collaborators and/or sponsors are welcome.
 If you want to sponsor the project you can do it either as an individual using github sponsors or via your company by contacting us via email
 Companies sponsoring us Individual sponsoring us Go to github sponsors and don&amp;rsquo;t forget to thank them.</description>
@@ -46,29 +46,29 @@ Companies sponsoring us Individual sponsoring us Go to github sponsors and don&a
     
     <item>
       <title>Support</title>
-      <link>//localhost:1313/support/</link>
+      <link>/support/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/support/</guid>
+      <guid>/support/</guid>
       <description>Community Support You can find community-driven support via the following channels:
  On network to code&amp;lsquo;s slack, #nornir channel On discourse   Premium Support If you need dedicated support, help developing a feature or plugin, designing and/or architecting your solution or anything else you can reach out to us and discuss your needs.</description>
     </item>
     
     <item>
       <title>Swag</title>
-      <link>//localhost:1313/swag/</link>
+      <link>/swag/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/swag/</guid>
+      <guid>/swag/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>//localhost:1313/2020/02/25/hello-world/</link>
+      <link>/2020/02/25/hello-world/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/2020/02/25/hello-world/</guid>
+      <guid>/2020/02/25/hello-world/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Justo eget magna fermentum iaculis eu non diam phasellus. Sit amet porttitor eget dolor morbi non arcu risus. Augue mauris augue neque gravida in fermentum. Magna eget est lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum curabitur. Eget velit aliquet sagittis id.</description>
     </item>
     

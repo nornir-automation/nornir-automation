@@ -3,52 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/sponsor/</loc>
+    <loc>/sponsor/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/support/</loc>
+    <loc>/support/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/swag/</loc>
+    <loc>/swag/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/2020/02/25/hello-world/</loc>
+    <loc>/2020/02/25/hello-world/</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/news/</loc>
+    <loc>/tags/news/</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   

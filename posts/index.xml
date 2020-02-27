@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on nornir.tech</title>
-        <link>//localhost:1313/posts/</link>
+        <link>/posts/</link>
         <description>Recent content in Posts on nornir.tech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Nornir</copyright>
         <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Hello World</title>
-            <link>//localhost:1313/2020/02/25/hello-world/</link>
+            <link>/2020/02/25/hello-world/</link>
             <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
             
-            <guid>//localhost:1313/2020/02/25/hello-world/</guid>
+            <guid>/2020/02/25/hello-world/</guid>
             <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Justo eget magna fermentum iaculis eu non diam phasellus. Sit amet porttitor eget dolor morbi non arcu risus. Augue mauris augue neque gravida in fermentum. Magna eget est lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum curabitur. Eget velit aliquet sagittis id.</description>
             <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Justo eget magna fermentum iaculis eu non diam phasellus. Sit amet porttitor eget dolor morbi non arcu risus. Augue mauris augue neque gravida in fermentum. Magna eget est lorem ipsum dolor sit. Malesuada bibendum arcu vitae elementum curabitur. Eget velit aliquet sagittis id. Feugiat in fermentum posuere urna nec tincidunt praesent. Est placerat in egestas erat imperdiet sed euismod nisi porta. Vivamus arcu felis bibendum ut tristique et egestas. Sem nulla pharetra diam sit amet nisl suscipit. Gravida neque convallis a cras semper auctor neque vitae. Lacus sed viverra tellus in. Ipsum dolor sit amet consectetur adipiscing. Sit amet nulla facilisi morbi. Porttitor rhoncus dolor purus non enim.</p>
 <p>Viverra suspendisse potenti nullam ac tortor vitae purus. Molestie a iaculis at erat pellentesque adipiscing commodo. Hendrerit dolor magna eget est. Lacus luctus accumsan tortor posuere ac ut consequat semper. Augue mauris augue neque gravida in fermentum. Ac felis donec et odio pellentesque diam volutpat. Diam vel quam elementum pulvinar etiam non quam lacus. Feugiat vivamus at augue eget arcu. Fermentum dui faucibus in ornare quam viverra orci. Viverra suspendisse potenti nullam ac. Odio ut enim blandit volutpat. Morbi quis commodo odio aenean sed. Nisi lacus sed viverra tellus in hac. Suspendisse in est ante in nibh mauris cursus mattis. Viverra maecenas accumsan lacus vel facilisis volutpat. Massa eget egestas purus viverra accumsan in. Iaculis at erat pellentesque adipiscing commodo elit at. Bibendum est ultricies integer quis auctor elit sed. Scelerisque fermentum dui faucibus in ornare quam. In hendrerit gravida rutrum quisque non tellus.</p>
