@@ -40,5 +40,6 @@ clean:
 		-name '.*' -or \
 		-name '$(SRC)' -or \
 		-name 'Dockerfile' -or \
+		-name 'CNAME' -or \
 		-name 'Makefile' \
 		\) -print0 | xargs -0  -I {} rm -rf {}
