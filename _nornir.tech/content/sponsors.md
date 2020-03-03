@@ -9,6 +9,6 @@ If you want to sponsor the project you can do it either as an individual using [
 
 ## Companies sponsoring us
 
-## Individual sponsoring us
+## Individuals sponsoring us
 
 Go to [github sponsors](https://github.com/sponsors/dbarrosop) and don't forget to thank them.
