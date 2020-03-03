@@ -19,3 +19,9 @@ Nornir is a pure Python automation framework intented to be used directly from P
 [Github](https://github.com/nornir-automation/gornir/) [Documentation](https://pkg.go.dev/github.com/nornir-automation/gornir) [Help](https://nornir.discourse.group/)
 
 Gornir is a pluggable framework with inventory management to help operate collections of devices. It's similar to nornir but in golang.
+
+---
+
+## Third party projects
+
+Feel free to check out some cool third party projects by inspecting the tag [external projects](/tags/external-projects/)
