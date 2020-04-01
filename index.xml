@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Nornir Plugins</title>
+      <link>/nornir/plugins/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/nornir/plugins/</guid>
+      <description>Work in progress. See #486 for details.</description>
+    </item>
+    
+    <item>
       <title>CNaaS-NMS</title>
       <link>/2020/03/03/cnaas-nms/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
@@ -42,18 +51,6 @@ Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained ba
       
       <guid>/about/</guid>
       <description>About TBD</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>/projects/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/</guid>
-      <description>Nornir Github Documentation Help
-Nornir is a pure Python automation framework intented to be used directly from Python. While most automation frameworks use their own Domain Specific Language (DSL) which you use to describe what you want to have done, Nornir lets you control everything from Python.
- Gornir Github Documentation Help
-Gornir is a pluggable framework with inventory management to help operate collections of devices. It&amp;rsquo;s similar to nornir but in golang.</description>
     </item>
     
     <item>

@@ -5,18 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Gtihub
-Stockpiler gathers network device configurations and stores them in a local Git repository.
-Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained backup solution, and has been tested to function on Linux, MacOS, and Windows." />
-<meta name="keywords" content="nornir automation networking programming python golang, external projects, nornir" />
+<meta name="description" content="Work in progress. See #486 for details." />
+<meta name="keywords" content="nornir automation networking programming python golang" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="/2020/03/03/stockpiler/" />
+<link rel="canonical" href="/nornir/plugins/" />
 
 
     <title>
         
-            Stockpiler :: nornir.tech  — News and information about nornir&#39;s projects
+            Nornir Plugins :: nornir.tech  — News and information about nornir&#39;s projects
         
     </title>
 
@@ -40,30 +38,26 @@ Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained ba
 
 
 
-<meta itemprop="name" content="Stockpiler">
-<meta itemprop="description" content="Gtihub
-Stockpiler gathers network device configurations and stores them in a local Git repository.
-Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained backup solution, and has been tested to function on Linux, MacOS, and Windows.">
-<meta itemprop="datePublished" content="2020-03-03T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-03-03T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="37">
+<meta itemprop="name" content="Nornir Plugins">
+<meta itemprop="description" content="Work in progress. See #486 for details.">
+<meta itemprop="datePublished" content="2020-03-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="7">
 <meta itemprop="image" content="/"/>
 
 
 
-<meta itemprop="keywords" content="external projects,nornir," /><meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content="Stockpiler"/>
-<meta name="twitter:description" content="Gtihub
-Stockpiler gathers network device configurations and stores them in a local Git repository.
-Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained backup solution, and has been tested to function on Linux, MacOS, and Windows."/>
+<meta name="twitter:title" content="Nornir Plugins"/>
+<meta name="twitter:description" content="Work in progress. See #486 for details."/>
 
 
 
 
 
-    <meta property="article:published_time" content="2020-03-03 00:00:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2020-03-21 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -149,62 +143,79 @@ Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained ba
                 
     <main class="post">
 
-        <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>One minute
-
-            
-
-            </p>
-        </div>
-
         <article>
-            <h1 class="post-title">
-                <a href="/2020/03/03/stockpiler/">Stockpiler</a>
-            </h1>
-
-            
+            <h2 class="post-title"><a href="/nornir/plugins/">Nornir Plugins</a></h2>
 
             <div class="post-content">
-                <p><a href="https://github.com/rackerlabs/stockpiler">Gtihub</a></p>
-<p>Stockpiler gathers network device configurations and stores them in a local Git repository.</p>
-<p>Stockpiler utilizes Nornir, Netmiko, and GitPython for a fully self-contained backup solution, and has been tested to function on Linux, MacOS, and Windows.</p>
+                <p>Work in progress. See <a href="https://github.com/nornir-automation/nornir/issues/486">#486</a> for details.</p>
 
             </div>
         </article>
 
-        <hr />
+        <h3>Connections</h3>
+        <table>
+          <tr>
+            <th>name</th>
+            <th>maintainer</th>
+            <th>description</th>
+          </tr>
+          
+          <tr>
+            <td><a href="https://github.com/nornir-automation/napalm_nornir">napalm</a></td>
+            <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
+            <td>Allows connecting to devices using the <a href="https://github.com/napalm-automation/napalm/">napalm</a> library</td>
+          </tr>
+          
+          <tr>
+            <td><a href="TBD">netmiko</a></td>
+            <td><a href="https://github.com/ktbyers">ktbyers</a></td>
+            <td>Allows connecting to devices using the <a href="https://github.com/ktbyers/netmiko">netmiko</a> library</td>
+          </tr>
+          
+        </table>
 
-        <div class="post-info">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/external-projects">external projects</a></span><span class="tag"><a href="/tags/nornir">nornir</a></span>
-                </p>
+        <h3>Tasks</h3>
+        <table>
+          <tr>
+            <th>name</th>
+            <th>maintainer</th>
+            <th>description</th>
+          </tr>
+          
+          <tr>
+            <td><a href="https://github.com/nornir-automation/napalm_nornir">napalm</a></td>
+            <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
+            <td>Collection of tasks that exposes <a href="https://github.com/napalm-automation/napalm/">napalm</a>&lsquo;s functionality to manipulate
+the configuration of devices and gather information</td>
+          </tr>
+          
+          <tr>
+            <td><a href="TBD">netmiko</a></td>
+            <td><a href="https://github.com/ktbyers">ktbyers</a></td>
+            <td>Tasks that exposes <a href="https://github.com/ktbyers/netmiko">netmiko</a>&lsquo;s functionality</td>
+          </tr>
+          
+        </table>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>37 Words</p>
+        <h3>Inventory</h3>
+        <table>
+          <tr>
+            <th>name</th>
+            <th>maintainer</th>
+            <th>description</th>
+          </tr>
+          
+          <tr>
+            <td><a href="TBD">netbox</a></td>
+            <td>TBD</td>
+            <td>Magic with netbox</td>
+          </tr>
+          
+        </table>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-03-03 00:00 &#43;0000</p>
-        </div>
 
-        
-            <div class="pagination">
-                <div class="pagination__title">
-                    <span class="pagination__title-h">Read other posts</span>
-                    <hr />
-                </div>
 
-                <div class="pagination__buttons">
-                    
-                        <span class="button previous">
-                            <a href="/2020/03/03/cnaas-nms/">
-                                <span class="button__icon">←</span>
-                                <span class="button__text">CNaaS-NMS</span>
-                            </a>
-                        </span>
-                    
-
-                    
-                </div>
-            </div>
-        
+      </div>
     </main>
 
             </div>
