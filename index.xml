@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Tutorial: Combining Nornir with pyATS</title>
+      <link>/2020/05/13/tutorial-combining-nornir-with-pyats/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/13/tutorial-combining-nornir-with-pyats/</guid>
+      <description>This is a guest post by John McGovern (IPvZero), for more content like this and other interesting stuff you can visit the following youtube channel, github account, and twitter feed.
+ This tutorial aims to provide a simple use-case for combining Nornir and pyATS together in order to profile your current network configurations and implement desired state - as specified in host variable definition files.
+The workflow we will follow in this tutorial will be first to:</description>
+    </item>
+    
+    <item>
       <title>how many threads are enough threads?</title>
       <link>/2020/05/01/how-many-threads-are-enough-threads/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
