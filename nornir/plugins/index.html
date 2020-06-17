@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Work in progress. See #486 for details." />
+<meta name="description" content="Work in progress. See #486 for details.
+If you want to list your plugin here open a PR updating this file" />
 <meta name="keywords" content="nornir automation networking programming python golang" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -39,10 +40,11 @@
 
 
 <meta itemprop="name" content="Nornir Plugins">
-<meta itemprop="description" content="Work in progress. See #486 for details.">
+<meta itemprop="description" content="Work in progress. See #486 for details.
+If you want to list your plugin here open a PR updating this file">
 <meta itemprop="datePublished" content="2020-03-21T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-03-21T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="7">
+<meta itemprop="wordCount" content="21">
 <meta itemprop="image" content="/"/>
 
 
@@ -51,7 +53,8 @@
 <meta name="twitter:image" content="/"/>
 
 <meta name="twitter:title" content="Nornir Plugins"/>
-<meta name="twitter:description" content="Work in progress. See #486 for details."/>
+<meta name="twitter:description" content="Work in progress. See #486 for details.
+If you want to list your plugin here open a PR updating this file"/>
 
 
 
@@ -148,73 +151,60 @@
 
             <div class="post-content">
                 <p>Work in progress. See <a href="https://github.com/nornir-automation/nornir/issues/486">#486</a> for details.</p>
+<p>If you want to list your plugin here open a PR updating <a href="https://github.com/nornir-automation/nornir.tech.src/blob/master/data/nornir/plugins.yaml">this file</a></p>
 
             </div>
         </article>
 
-        <h3>Connections</h3>
         <table>
           <tr>
             <th>name</th>
-            <th>maintainer</th>
+            <th>maintainers</th>
             <th>description</th>
+            <th>plugin types</th>
           </tr>
           
           <tr>
-            <td><a href="https://github.com/nornir-automation/napalm_nornir">napalm</a></td>
+            <td><a href="https://github.com/nornir-automation/nornir_napalm">nornir_napalm</a></td>
             <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
-            <td>Allows connecting to devices using the <a href="https://github.com/napalm-automation/napalm/">napalm</a> library</td>
+            <td>Allows interacting with devices using the <a href="https://github.com/napalm-automation/napalm/">napalm</a> library</td>
+            <td> tasks  connection </td>
           </tr>
           
           <tr>
-            <td><a href="TBD">netmiko</a></td>
+            <td><a href="https://github.com/nornir-automation/napalm_nornir">nornir_netmiko</a></td>
             <td><a href="https://github.com/ktbyers">ktbyers</a></td>
-            <td>Allows connecting to devices using the <a href="https://github.com/ktbyers/netmiko">netmiko</a> library</td>
-          </tr>
-          
-        </table>
-
-        <h3>Tasks</h3>
-        <table>
-          <tr>
-            <th>name</th>
-            <th>maintainer</th>
-            <th>description</th>
+            <td>Allows interacting with devices using the <a href="https://github.com/ktbyers/netmiko">netmiko</a> library</td>
+            <td> tasks  connection </td>
           </tr>
           
           <tr>
-            <td><a href="https://github.com/nornir-automation/napalm_nornir">napalm</a></td>
-            <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
-            <td>Collection of tasks that exposes <a href="https://github.com/napalm-automation/napalm/">napalm</a>&lsquo;s functionality to manipulate
-the configuration of devices and gather information</td>
-          </tr>
-          
-          <tr>
-            <td><a href="TBD">netmiko</a></td>
-            <td><a href="https://github.com/ktbyers">ktbyers</a></td>
-            <td>Tasks that exposes <a href="https://github.com/ktbyers/netmiko">netmiko</a>&lsquo;s functionality</td>
-          </tr>
-          
-        </table>
-
-        <h3>Inventory</h3>
-        <table>
-          <tr>
-            <th>name</th>
-            <th>maintainer</th>
-            <th>description</th>
-          </tr>
-          
-          <tr>
-            <td><a href="https://github.com/wvandeun/nornir_netbox">NetBox</a></td>
+            <td><a href="https://github.com/wvandeun/nornir_netbox">nornir_netbox</a></td>
             <td><a href="https://github.com/wvandeun">wvandeun</a>, <a href="https://github.com/clay584">clay584</a></td>
             <td>Nornir inventory plugin for <a href="https://github.com/netbox-community/netbox">NetBox</a></td>
+            <td> inventory </td>
           </tr>
           
           <tr>
-            <td><a href="https://github.com/carlmontanari/nornir_ansible">ansible</a></td>
+            <td><a href="https://github.com/carlmontanari/nornir_ansible">nornir_ansible</a></td>
             <td><a href="https://github.com/carlmontanari">carlmontanari</a></td>
             <td>Inventory plugin to use Ansible inventories with nornir</td>
+            <td> inventory </td>
+          </tr>
+          
+          <tr>
+            <td><a href="https://github.com/nornir-automation/nornir_utils">nornir_utils</a></td>
+            <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
+            <td>Collection of simple plugins for nornir; <code>YAMLInventory</code>, <code>print_result</code>, <code>print_title</code>, <code>echo_data</code>, <code>write_file</code>, <code>load_json</code>, <code>load_yaml</code>,
+amongst others.</td>
+            <td> tasks  processors  inventory  functions </td>
+          </tr>
+          
+          <tr>
+            <td><a href="https://github.com/nornir-automation/nornir_jinja2">nornir_jinja2</a></td>
+            <td><a href="https://github.com/dbarrosop">dbarrosop</a></td>
+            <td>Collection of tasks to work with jinja2 templates</td>
+            <td> tasks </td>
           </tr>
           
         </table>
