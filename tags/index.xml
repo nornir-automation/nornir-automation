@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nornir</copyright>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>nornir</title>
+      <link>/tags/nornir/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nornir/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>guest</title>
@@ -18,15 +27,6 @@
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/guest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nornir</title>
-      <link>/tags/nornir/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nornir/</guid>
       <description></description>
     </item>
     

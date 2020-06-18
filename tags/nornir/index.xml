@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nornir</copyright>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/nornir/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nornir 3 beta</title>
+      <link>/2020/05/18/nornir-3-beta/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/18/nornir-3-beta/</guid>
+      <description>I am happy to announce that nornir3 is in beta for you to test. The truth is that it&amp;rsquo;s been out already for a while but at this point I am confident it&amp;rsquo;s stable enough to open it to the wider public for testing.
+To install nornir beta you will need to execute the following command:
+$ pip install --pre &amp;#34;nornir&amp;gt;=3.0.0b0&amp;#34; Don&amp;rsquo;t forget the --pre option as otherwise pip won&amp;rsquo;t let you install it as it&amp;rsquo;s considered a pre-release.</description>
+    </item>
     
     <item>
       <title>Tutorial: Combining Nornir with pyATS</title>

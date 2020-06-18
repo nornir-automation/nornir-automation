@@ -6,8 +6,54 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Nornir</copyright>
-        <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Nornir 3 beta</title>
+            <link>/2020/05/18/nornir-3-beta/</link>
+            <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/2020/05/18/nornir-3-beta/</guid>
+            <description>I am happy to announce that nornir3 is in beta for you to test. The truth is that it&amp;rsquo;s been out already for a while but at this point I am confident it&amp;rsquo;s stable enough to open it to the wider public for testing.
+To install nornir beta you will need to execute the following command:
+$ pip install --pre &amp;#34;nornir&amp;gt;=3.0.0b0&amp;#34; Don&amp;rsquo;t forget the --pre option as otherwise pip won&amp;rsquo;t let you install it as it&amp;rsquo;s considered a pre-release.</description>
+            <content type="html"><![CDATA[<p>I am happy to announce that nornir3 is in beta for you to test. The truth is that it&rsquo;s been out already for a while but at this point I am confident it&rsquo;s stable enough to open it to the wider public for testing.</p>
+<p>To install nornir beta you will need to execute the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pip install --pre <span style="color:#e6db74">&#34;nornir&gt;=3.0.0b0&#34;</span>
+</code></pre></div><p>Don&rsquo;t forget the <code>--pre</code> option as otherwise <code>pip</code> won&rsquo;t let you install it as it&rsquo;s considered a pre-release.</p>
+<p>There are many new features and some changes but the main change is that <code>nornir</code> won&rsquo;t ship with plugins, instead plugins will live in their own repository. This should minimize the amount of dependencies needed to deploy nornir and also allow maintainers to better maintain the plugins they are experts on :)</p>
+<p>To find plugins you can visit <a href="/nornir/plugins/">the plugin repository</a> and if you want to list your own just open a PR.</p>
+<p>Instructions for installing plugins is plugin specific but in most cases it will be just a matter of using pip. For instance:</p>
+<pre><code>$ pip install nornir-napalm nornir-utils nornir-jinja2
+</code></pre><p>Plugins&rsquo; documentation should have more info about it.</p>
+<p>You can find the docs <a href="https://nornir.readthedocs.io/en/3.0.0/">here</a> and the upgrading notes <a href="https://nornir.readthedocs.io/en/3.0.0/upgrading/2_to_3.html">here</a></p>
+<p>Finally, a working example using nornir3:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> nornir <span style="color:#f92672">import</span> InitNornir
+<span style="color:#f92672">from</span> nornir_napalm.plugins.tasks <span style="color:#f92672">import</span> napalm_cli
+
+nr <span style="color:#f92672">=</span> InitNornir(
+    inventory<span style="color:#f92672">=</span>{
+        <span style="color:#e6db74">&#34;plugin&#34;</span>: <span style="color:#e6db74">&#34;SimpleInventory&#34;</span>,
+        <span style="color:#e6db74">&#34;options&#34;</span>: {
+            <span style="color:#e6db74">&#34;host_file&#34;</span>: <span style="color:#e6db74">&#34;inventory/hosts.yaml&#34;</span>,
+            <span style="color:#e6db74">&#34;group_file&#34;</span>: <span style="color:#e6db74">&#34;inventory/groups.yaml&#34;</span>,
+            <span style="color:#e6db74">&#34;defaults_file&#34;</span>: <span style="color:#e6db74">&#34;inventory/defaults.yaml&#34;</span>,
+        }
+    },
+    dry_run<span style="color:#f92672">=</span>True,
+)
+
+result <span style="color:#f92672">=</span> nr<span style="color:#f92672">.</span>run(
+    napalm_cli,
+    commands<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;show version&#34;</span>, <span style="color:#e6db74">&#34;show interfaces&#34;</span>],
+)
+
+<span style="color:#66d9ef">print</span>(result[<span style="color:#e6db74">&#34;rtr00&#34;</span>][<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>result[<span style="color:#e6db74">&#34;show version&#34;</span>])
+</code></pre></div><p>Which is pretty much what you are used to with the difference the import path for <code>napalm_cli</code> is now different and points to the plugin library.</p>
+<p>Feel free to check the documentation, try it out and contact me on slack, open issues and/or PRs if you find issues or have questions.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Tutorial: Combining Nornir with pyATS</title>
