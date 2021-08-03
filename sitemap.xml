@@ -3,32 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/guest/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nornir/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/salt/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/saltstack/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2021/07/16/saltstack-nornir-proxy-minion-introduction/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/filtering/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/guest/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2021/04/19/how-to-filtering-deep-dive/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/nornir/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2021-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-04-19T00:00:00+00:00</lastmod>
   </url>
   

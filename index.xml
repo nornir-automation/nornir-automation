@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>SALTSTACK Nornir Proxy Minion introduction</title>
+      <link>/2021/07/16/saltstack-nornir-proxy-minion-introduction/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/07/16/saltstack-nornir-proxy-minion-introduction/</guid>
+      <description>This is a guest post by Denis Mulyalin, follow github account and twitter feed for latest updates.
+ SALTSTACK Nornir Proxy Minion introduction Network Automation is a complex but interesting topic with a lot of challenges to explore and a lot to learn, defined by one of the vendors as:
+ Network automation is the process of automating the configuring, managing, testing, deploying, and operating of physical and virtual devices within a network.</description>
+    </item>
+    
+    <item>
       <title>How To: Filtering Deep Dive</title>
       <link>/2021/04/19/how-to-filtering-deep-dive/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
