@@ -4,17 +4,37 @@
   
   <url>
     <loc>/tags/guest/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/network-testing/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/nornir/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/testing/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2021/08/06/testing-your-network-with-nornir-testsprocessor/</loc>
+    <lastmod>2021-08-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +49,6 @@
   
   <url>
     <loc>/2021/07/16/saltstack-nornir-proxy-minion-introduction/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url>
   
