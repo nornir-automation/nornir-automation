@@ -81,7 +81,7 @@ The workflow we will follow in this tutorial will be first to:</description>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/nornir/plugins/</guid>
-      <description>Work in progress. See #486 for details.
+      <description>Nornir 3 introduced the plugin system where community-contributed plugins are located in separate Python packages. See #486 for more details. Thank you for all of the valuable contributions that have helped make the Nornir ecosystem exceptional.
 If you want to list your plugin here open a PR updating this file</description>
     </item>
     
